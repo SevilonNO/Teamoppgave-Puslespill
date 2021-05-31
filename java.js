@@ -1,3 +1,4 @@
+
 //model
 let appen = document.getElementById("app");
 Counter = 0;
@@ -78,3 +79,11 @@ function onDragStart(event) {
       .clearData();
 
   }
+=======
+let appen = document.getElementById("app");
+let html = "";
+
+function view() {
+    appen.innerHTML = html
+}
+

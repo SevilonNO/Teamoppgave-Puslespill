@@ -1,3 +1,4 @@
+
 body{
     background-color: beige;
 }
@@ -35,3 +36,29 @@ img{
     width:100%;
     height:auto;
 }
+=======
+.brett {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:100px 250px 250px 250px 100px;
+    grid-template-areas: 'header header header'
+                         'img'
+                         'c1 c2 c3'
+                         'c4 c5 c6'
+                         'c7 c8 c9'
+                         'button button button';
+                        }
+body {
+    display: flex;
+    justify-content: center;
+}
+.startOfLine {
+    float: left;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
